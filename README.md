@@ -1,6 +1,6 @@
 # pychallonge
 
-[![image](https://img.shields.io/travis/ZEDGR/pychal.svg)](https://travis-ci.org/ZEDGR/pychal)
+[![Build Status](https://www.travis-ci.com/russellvt/pychallonge.svg?branch=ruse)](https://www.travis-ci.com/russellvt/pychallonge)
 
 Pychallonge provides python bindings for the [CHALLONGE!](http://challonge.com) [API](http://api.challonge.com/v1).
 The pychallonge module was created by [Russ Amos](https://github.com/russ-)
@@ -31,7 +31,7 @@ For the stable version
 
 For latest development
 
-    pip install -e git+http://github.com/ZEDGR/pychallonge#egg=pychallonge
+    pip install -e git+http://github.com/russellvt/pychallonge#egg=pychallonge
 
 # Usage
 
@@ -91,7 +91,7 @@ to CHALLONGE!, which requires a username and api key. To run the tests
 with your credentials, set `CHALLONGE_USER` and `CHALLONGE_KEY`
 appropriately in your environment.
 
-    $ git clone http://github.com/ZEDGR/pychalllonge pychallonge
+    $ git clone http://github.com/russellvt/pychalllonge pychallonge
     $ CHALLONGE_USER=my_user CHALLONGE_KEY=my_api_key python pychal/tests.py
     ...............................
     ----------------------------------------------------------------------
